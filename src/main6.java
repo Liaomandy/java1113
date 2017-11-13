@@ -3,15 +3,20 @@ public class main6 {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         int i=sc.nextInt();
         int sum=0;
-        int n;
-        int num;
-        while(i==99999);
+        int num=sc.nextInt();
+
+        i=1;
+        System.out.println("請輸入第"+i+"個數字");
+        num=sc.nextInt();
+        while(num !=99999);
         {
-            System.out.println("請輸入第"+i+"個數字");
-            num=sc.nextInt();
             sum=sum+num;
             i++;
+            System.out.println("請輸入第"+i+"個數字");
+            num=sc.nextInt();
         }
+        double avg;
+
         System.out.println(sum);
 
     }
